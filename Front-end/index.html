@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Snake Game</h1>
+        <nav>
+            <ul>
+                <li><a href="#gameContainer">Play Game</a></li>
+                <li><a href="#instructions">Instructions</a></li>
+                <li><a href="#scoreboard">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="gameContainer">
+        <h2>Snake Game</h2>
+        <div id="instructions">
+            <h3>Instructions:</h3>
+            <ul>
+                <li>Use the arrow keys to control the snake.</li>
+                <li>Eat the red food to grow and increase your score.</li>
+                <li>Avoid running into walls or the snake's own body.</li>
+                <li>Press the "Start Game" button to begin playing.</li>
+                <li>Press the "Restart Game" button to restart after the game ends.</li>
+            </ul>
+        </div>
+        <div id="dashboard">
+            <div id="gameArea">
+                <canvas id="gameCanvas" width="600" height="400"></canvas>
+                <button id="startButton">Start Game</button>
+                <button id="restartButton" style="display:none;">Restart Game</button>
+            </div>
+            <div id="scoreboard">
+                <h2>Leaderboard</h2>
+                <div id="leaderboard">
+                    <p>1. Alferd - 1000</p>
+                    <p>2. Daniel - 800</p>
+                    <p>3. Hank - 600</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Snake Game. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:support@snakegame.com">support@snakegame.com</a></p>
+    </footer>
+    <script src="game.js"></script>
+</body>
+</html>
