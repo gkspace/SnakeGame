@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 /Backend/node_modules
-/Frontend/node_modules
+/Frontend/node_modulesgit push -u origin maingit push -u origin main
 /.pnp
 .pnp.js
 
